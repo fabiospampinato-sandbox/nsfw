@@ -4,6 +4,7 @@
   "description": "A simple file watcher for Node",
   "main": "js/src/index.js",
   "scripts": {
+    "prebuild": "prebuildify -t electron@9.3.3 --strip",
     "lint": "eslint js/src js/spec",
     "test": "yarn lint && mocha --expose-gc js/spec"
   },
