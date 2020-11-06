@@ -27,5 +27,7 @@ deploy:
   prerelease: true
   file: "$ARCHIVE_NAME"
   skip_cleanup: true
+  on:
+    branch: prebuild
   api_key:
     secure: "jM6nBG+4I+wBK67MYpvbk/7OO+Aa7/zdnZrT5hDtWNwC0X7LB9z0kergbfZmjhJ8pLoDN+OcJaysCSji7h0xEbhuQf4hLq34h/VCTypCt1zM+MCxavtRxpYSMUZfh5JsdK/9T1eEfJVFdjbRN9yZqgWlSCB7EslKAQjcRPcOL9/SqAex731QZ0VnbsoG6a25jw8sNjoBVHxSUa1XiF7k8cWMQYHRokrJX1WYuN3JULLme4Gn4+kOySIdOLupO7HQBDM6yJ5MS2uQcYk97OABOaq1e/tWZ6mWsR2GZT/DYpg7TS6ouRsxN6bUKKo6JTI1rAigCViIbeGvQDvIYuzqrQqV8tX5/+6+A9kzsFoWKbwwpFYXknuMbOWrMcQJVtdYJ44KDh8TAXns/GsNlfoYxkFM91S8e0OwW3+axn+hg6VhdfPu16wYRdF4Z1cSsbHEBYDu7OsVf+NBDdIRmUe1r2s2Tc8QhU0RxZNJ9uWiyZQtmjdgWWb1HLWVw7+hiyBE/+lsd98+HQov59BRKWD9CEvgNmTGOtJAdjYuKU4+ZkR7TMZK+69sJ8G8lEdQ/Vx3u6EZnGUXctgODJfOWiOu5s4sIwGRsvDprLEQz09dZ4jC619Icd8OyM67W3iTtD0Nuu/LnRIhmS0HJmblEab9sJreuYcfTR4D1cEOrUo9NkI="
