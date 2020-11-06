@@ -25,7 +25,7 @@ after_test:
 
 artifacts:
   - path: prebuilds
-    name: $(APPVEYOR_REPO_TAG_NAME)-win-$(PLATFORM)
+    name: prebuild-win-$(PLATFORM)
     type: zip
 
 deploy:
