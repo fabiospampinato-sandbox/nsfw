@@ -32,6 +32,7 @@ deploy:
   - provider: GitHub
     artifact: /.*\.zip/
     draft: false
+    release: "prebuild-2.1.1"
     prerelease: true
     auth_token:
       secure: YmMActg/0Ix6Zoas3/8xoopEhy1pn9q1Ka24lFhOa1JIOMbGI0JNFGD1U8Up4Wkr
